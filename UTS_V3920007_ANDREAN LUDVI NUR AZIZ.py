@@ -18,9 +18,9 @@ def main():
         ubah1 = enkripsiPesan(kunci, pesanEnkripsi)
         ubah2 = dekripsiPesan(kunci, pesanDekripsi)
 
-    print("----------------------- Vigenere Cipher ----------------------------")
+    print("Vigenere Cipher")
     print("")
-    print('Kunci : ' + kunci)
+    print('Kunci yang saya gunakan adalah : ' + kunci)
     print("")
     print('Plaintext : ' + pesanEnkripsi)
     print('%snya yaitu : ' % (mode1.title()) + ubah1)
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     main()
 
 
-# --------------------------Affine Cipher-------------------------
+#Affine Cipher
 
 # Enkripsi
 # Tentukan variabel
@@ -130,9 +130,9 @@ def main():
     text = 'EUFKYFEIVVIGRIQIFSMIOCLRUSQWKSMTDTCGUSWPYPAUUIARFOFCHGUNXMNUMTFCOAFS'  # Pesan yang akan di enkripsi
     key = [3, 5]
 
-    print("--------------------------- Affine Cipher -----------------------------")
+    print("Affine Cipher")
     print("")
-    print('Kunci : {}'.format(key))
+    print('Kunci yang saya gunakan adalah : {}'.format(key))
     print("")
     print('Plaintext dari hasil enkripsi sebelumnya: {}'.format(text))
 
